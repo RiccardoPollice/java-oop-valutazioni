@@ -34,18 +34,11 @@ public class Corso {
         double perPromossi =(promossi.size()*100.0/studentiTot.size());
         DecimalFormat df = new DecimalFormat("#.##");
         String perPromossiFormatted = df.format(perPromossi);
-        System.out.println("la percentuale di studenti promossi è:"+perPromossiFormatted + %);
+        System.out.println("la percentuale di studenti promossi è:"+perPromossiFormatted + "%");
         System.out.println("ecco gli studenti promossi: ");
         for (Studente studentepromosso : promossi){
             System.out.println(studentepromosso);
         }
-
     }
-
-
-
-
-
-
 }
-}
+
